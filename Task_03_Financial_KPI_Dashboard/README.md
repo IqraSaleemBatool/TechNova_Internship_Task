@@ -1,1 +1,1 @@
-This folder contain my first task of internship at technova
+This folder contain my first task of internship at Technova
