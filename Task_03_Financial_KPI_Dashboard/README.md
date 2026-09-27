@@ -36,9 +36,10 @@ Task_03_Financial_KPI_Dashboard/
 │   └── dashboard-2.png
 │
 ├── plots/
-│   ├── plot_1.html
-│   ├── plot_2.html
-│   └── plot_3.html
+│   ├── monthly_financial_performance.html
+│   ├── profit_by_country.html
+│   ├── profit_by_country.html
+│   └── sales_by_segment.html
 │
 ├── Financial Sample.xlsx
 │
