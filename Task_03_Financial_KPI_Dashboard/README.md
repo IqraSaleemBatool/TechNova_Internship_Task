@@ -22,8 +22,8 @@ An additional **Power BI dashboard** was also created to provide an interactive 
 - Build an interactive dashboard using Plotly Dash
 - Create an additional Power BI dashboard for financial reporting
 
----
-## 🎯 KPIs
+
+##  KPIs
 
 - Total Sales
 - Total Profit
@@ -31,7 +31,7 @@ An additional **Power BI dashboard** was also created to provide an interactive 
 - Profit Margin
 - Total Units Sold
 
-## 📈 Dashboard
+##  Dashboard
 
 The project includes:
 
@@ -39,7 +39,7 @@ The project includes:
 - Interactive **Plotly Dash** dashboard
 - Additional **Power BI** dashboard with interactive filters and financial visualizations
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - Python
 - Pandas
@@ -48,7 +48,7 @@ The project includes:
 - Plotly
 - Plotly Dash
 - Power BI
-- Jupyter Notebook
+- Colab Notebook
 - Excel
 
 ##  Project Structure
@@ -77,10 +77,12 @@ Task_03_Financial_KPI_Dashboard/
 └── README.md
 ```
 
- Files
-Colab Notebook: Data cleaning, KPI analysis and visualizations
-Plotly Dash: Interactive dashboard application
-Power BI: Additional interactive financial dashboard
-Excel: Source dataset
-plots: Interactive Plotly visualizations
+ 
+###Files
+ 
+***Colab Notebook:*** Data cleaning, KPI analysis and visualizations
+***Plotly Dash:*** Interactive dashboard application
+***Power BI:*** Additional interactive financial dashboard
+***Excel:*** Source dataset
+***plots:*** Interactive Plotly visualizations
 
