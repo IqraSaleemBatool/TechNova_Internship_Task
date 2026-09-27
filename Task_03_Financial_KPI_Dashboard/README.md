@@ -78,11 +78,15 @@ Task_03_Financial_KPI_Dashboard/
 ```
 
  
-###Files
+## Files
  
 ***Colab Notebook:*** Data cleaning, KPI analysis and visualizations
+
 ***Plotly Dash:*** Interactive dashboard application
+
 ***Power BI:*** Additional interactive financial dashboard
+
 ***Excel:*** Source dataset
+
 ***plots:*** Interactive Plotly visualizations
 
