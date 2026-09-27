@@ -23,6 +23,33 @@ An additional **Power BI dashboard** was also created to provide an interactive 
 - Create an additional Power BI dashboard for financial reporting
 
 ---
+## 🎯 KPIs
+
+- Total Sales
+- Total Profit
+- Total COGS
+- Profit Margin
+- Total Units Sold
+
+## 📈 Dashboard
+
+The project includes:
+
+- Python-based data analysis and visualization
+- Interactive **Plotly Dash** dashboard
+- Additional **Power BI** dashboard with interactive filters and financial visualizations
+
+## 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Plotly
+- Plotly Dash
+- Power BI
+- Jupyter Notebook
+- Excel
 
 ##  Project Structure
 
@@ -48,3 +75,12 @@ Task_03_Financial_KPI_Dashboard/
 ├── Task_03_Financial_KPI_Dashboard.ipynb
 │
 └── README.md
+```
+
+ Files
+Colab Notebook: Data cleaning, KPI analysis and visualizations
+Plotly Dash: Interactive dashboard application
+Power BI: Additional interactive financial dashboard
+Excel: Source dataset
+plots: Interactive Plotly visualizations
+
