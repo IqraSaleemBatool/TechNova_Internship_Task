@@ -1,173 +1,89 @@
-AAPL Stock Trend Analysis 
+# AAPL Stock Trend Analysis
 
-Project Overview
+A time-series analysis of Apple Inc. (AAPL) stock prices (May 2015 – May 2020), covering trend analysis, seasonality, anomaly detection, moving averages, and forecasting with Prophet and ARIMA.
 
-This project performs a comprehensive time-series analysis of Apple Inc. (AAPL) historical stock prices covering the period from May 27, 2015 to May 22, 2020. The analysis explores price trends, trading behavior, seasonality, anomalies, short-term fluctuations, and forecasting using statistical and machine learning models.
+---
 
-The goal is to extract meaningful insights from historical stock data and demonstrate practical time-series analysis techniques.
+##  Dataset
 
-Dataset
-Attribute	Details
-File	AAPL.csv
-Records	1,258 rows
-Columns	14 (after dropping redundant index)
-Period	2015-05-27 → 2020-05-22
-Symbol	AAPL
-Key Columns
-date — Trading date (converted to datetime)
+- **File:** `AAPL.csv`
+- **Records:** 1,258 rows | **Period:** 2015-05-27 → 2020-05-22
+- **Columns:** `date`, `open`, `high`, `low`, `close`, `volume`, adjusted prices, `divCash`, `splitFactor`
 
-open, high, low, close — Daily OHLC prices
+---
 
-volume — Daily trading volume
+##  Objectives
 
-adjClose, adjHigh, adjLow, adjOpen, adjVolume — Adjusted prices
+- Clean and prepare the dataset
+- Perform EDA and trend analysis
+- Detect seasonality and anomalies
+- Apply moving averages (7-day, 30-day)
+- Forecast using Prophet and ARIMA
+- Evaluate and visualize model results
 
-divCash — Dividend cash value
+---
 
-splitFactor — Stock split factor
+## 🛠️ Tech Stack
 
- Objectives
- 
-Load, clean, and prepare the AAPL stock dataset
+`pandas` · `numpy` · `matplotlib` · `prophet` · `statsmodels`
 
-Perform exploratory data analysis (EDA)
+---
 
-Analyze overall time-series trends
+## 📊 Workflow
 
-Investigate seasonality (monthly/yearly patterns)
+| Step | Description |
+|------|-------------|
+| 1 | Load & preprocess data (datetime, sorting, dedup) |
+| 2 | EDA — price trends, volume, daily range, correlation |
+| 3 | Time-series trend & daily returns |
+| 4 | Seasonality — monthly & yearly patterns |
+| 5 | Anomaly detection via IQR method |
+| 6 | Moving averages (MA_7, MA_30) |
+| 7 | Forecasting with Prophet & ARIMA |
+| 8 | Model evaluation & comparison |
+| 9 | Final forecast visualization |
 
-Detect anomalies in daily returns using the IQR method
+---
 
-Apply moving average smoothing (7-day and 30-day)
+## 🔍 Key Findings
 
-Forecast future prices using Prophet and ARIMA
+- **Overall upward trend:** ~$130 (2015) → ~$318 (2020)
+- **Min/Max close:** $90.34 (2016-05-12) / $327.20 (2020-02-12)
+- **89 anomalies** detected; largest swing: **+11.98%** and **−12.86%** (March 2020)
+- **Strongest months:** October (+5.30%), August (+4.53%)
+- **Weakest months:** November (−2.59%), December (−1.91%)
+- OHLC prices are ~99.9% correlated; volume weakly negative with price
 
-Evaluate and compare forecasting models
+---
 
-Visualize final forecast results
+## ▶️ How to Run
 
- Technologies & Libraries
- 
-python
-pandas          # Data manipulation
-numpy           # Numerical operations
-matplotlib      # Visualization
-prophet         # Forecasting (Facebook Prophet)
-statsmodels     # ARIMA modeling
-google.colab    # File upload utility
+1. Open the notebook in **Google Colab** or **Jupyter**
+2. Install dependencies:
+   ```bash
+   pip install pandas numpy matplotlib prophet statsmodels
+   ```
+3. Upload `AAPL.csv` when prompted
+4. Run cells sequentially
 
-Analysis Workflow
+---
 
-1. Data Loading and Preparation
-Upload and load AAPL.csv
+## 📁 Structure
 
-Drop the redundant Unnamed: 0 index column
+```
+├── Task_4_Stock_Trend_Analysis.ipynb
+├── AAPL.csv
+└── README.md
+```
 
-Convert date to datetime and sort chronologically
+---
 
-Check for missing values and duplicates (none found)
+## ⚠️ Disclaimer
 
-2. Exploratory Data Analysis (EDA)
-Minimum closing price: $90.34 (2016-05-12)
+For educational purposes only. Not financial advice.
 
-Maximum closing price: $327.20 (2020-02-12)
+---
 
-Visualized:
+## 👤 Author
 
-Opening vs. closing prices
-
-Closing price distribution
-
-Trading volume over time
-
-Daily price range (High − Low)
-
-Correlation matrix of price variables
-
-Key Finding: OHLC prices are ~99.9% correlated; volume shows weak negative correlation with price.
-
-3. Time Series Trend Analysis
-Overall upward trend from ~$130 (2015) to ~$318 (2020)
-
-Daily returns computed via pct_change()
-
-Yearly average closing prices:
-
-Year	Avg Close
-2015	117.83
-2016	104.60
-2017	150.55
-2018	189.05
-2019	208.26
-2020	291.79
-4. Seasonality Analysis
-Monthly average prices and monthly returns calculated
-
-Strongest average returns in October (+5.30%) and August (+4.53%)
-
-Weakest returns in November (−2.59%) and December (−1.91%)
-
-5. Anomaly Detection (IQR Method)
-Q1 = −0.646, Q3 = 0.934, IQR = 1.580
-
-Bounds: [−3.017, +3.304]
-
-89 anomalies detected
-
-Largest gain: +11.98% (2020-03-13)
-
-Largest drop: −12.86% (2020-03-16)
-
-6. Moving Average Analysis
-7-day MA: responsive to short-term changes
-
-30-day MA: smoother, reflects broader trend
-
-MA crossover (MA_difference = MA_7 − MA_30) used to gauge momentum
-
-7. Forecasting (Prophet & ARIMA)
-Models trained on historical closing prices
-
-Future prices predicted and visualized
-
-8. Model Evaluation
-Compared Prophet vs. ARIMA using error metrics (MAE, RMSE)
-
-9. Final Forecast Visualization
-Combined historical data with forecasted trends
-
-🔍 Key Insights
-AAPL exhibited a strong long-term uptrend despite short-term volatility
-
-Volume spikes align with periods of high market activity
-
-2020 (COVID-19 period) showed extreme volatility with the largest daily swings
-
-Monthly seasonality suggests October and August historically strong
-
-Moving averages confirm bullish momentum, especially in 2019–2020
-
-▶️ How to Run
-Open Task_4_Stock_Trend_Analysis.ipynb in Google Colab or Jupyter Notebook
-
-Install required libraries:
-
-bash
-pip install pandas numpy matplotlib prophet statsmodels
-Upload AAPL.csv when prompted (or place it in the working directory)
-
-Run cells sequentially from top to bottom
-
-Review outputs, plots, and forecast results
-
- Project Structure
- 
-'''text
-Task_4_Stock_Trend_Analysis.ipynb   # Main analysis notebook
-AAPL.csv                            # Input dataset
-README.md                           # Project documentation
-'''
-
-
-
-
+**Task 4 — Stock Trend Analysis** | Time-Series Project
