@@ -72,6 +72,8 @@ A time-series analysis of Apple Inc. (AAPL) stock prices (May 2015 – May 2020)
 
 ```
 ├── Task_4_Stock_Trend_Analysis.ipynb
+├── plots
+├── Report_Task_04.pdf
 ├── AAPL.csv
 └── README.md
 ```
