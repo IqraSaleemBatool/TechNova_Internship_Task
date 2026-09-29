@@ -1,4 +1,5 @@
-'''text
+
+```
 plots/
     ├── Annual Price Overview.png
     ├── Anomaly Detection.png
@@ -16,4 +17,5 @@ plots/
     ├── opening vs closing price range.png
     ├── time series trend analysis.png
     └── trading volume over time.png
-'''
+
+```
