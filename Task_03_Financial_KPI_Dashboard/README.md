@@ -80,7 +80,7 @@ Task_03_Financial_KPI_Dashboard/
  
 ## Files
  
-***Colab Notebook:*** Data cleaning, KPI analysis and visualizations
+***Colab Notebook:*** Data cleaning, KPI analysis And visualizations
 
 ***Plotly Dash:*** Interactive dashboard application
 
