@@ -1,10 +1,11 @@
-AAPL Stock Trend Analysis — README
-📌 Project Overview
+AAPL Stock Trend Analysis 
+
+Project Overview
 This project performs a comprehensive time-series analysis of Apple Inc. (AAPL) historical stock prices covering the period from May 27, 2015 to May 22, 2020. The analysis explores price trends, trading behavior, seasonality, anomalies, short-term fluctuations, and forecasting using statistical and machine learning models.
 
 The goal is to extract meaningful insights from historical stock data and demonstrate practical time-series analysis techniques.
 
-📂 Dataset
+Dataset
 Attribute	Details
 File	AAPL.csv
 Records	1,258 rows
