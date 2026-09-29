@@ -1,6 +1,7 @@
 AAPL Stock Trend Analysis 
 
 Project Overview
+
 This project performs a comprehensive time-series analysis of Apple Inc. (AAPL) historical stock prices covering the period from May 27, 2015 to May 22, 2020. The analysis explores price trends, trading behavior, seasonality, anomalies, short-term fluctuations, and forecasting using statistical and machine learning models.
 
 The goal is to extract meaningful insights from historical stock data and demonstrate practical time-series analysis techniques.
@@ -25,7 +26,8 @@ divCash — Dividend cash value
 
 splitFactor — Stock split factor
 
-🎯 Objectives
+ Objectives
+ 
 Load, clean, and prepare the AAPL stock dataset
 
 Perform exploratory data analysis (EDA)
@@ -44,7 +46,8 @@ Evaluate and compare forecasting models
 
 Visualize final forecast results
 
-🛠️ Technologies & Libraries
+ Technologies & Libraries
+ 
 python
 pandas          # Data manipulation
 numpy           # Numerical operations
@@ -52,7 +55,9 @@ matplotlib      # Visualization
 prophet         # Forecasting (Facebook Prophet)
 statsmodels     # ARIMA modeling
 google.colab    # File upload utility
-📊 Analysis Workflow
+
+Analysis Workflow
+
 1. Data Loading and Preparation
 Upload and load AAPL.csv
 
@@ -155,15 +160,14 @@ Run cells sequentially from top to bottom
 
 Review outputs, plots, and forecast results
 
-📁 Project Structure
-text
+ Project Structure
+ 
+'''text
 Task_4_Stock_Trend_Analysis.ipynb   # Main analysis notebook
 AAPL.csv                            # Input dataset
 README.md                           # Project documentation
-⚠️ Disclaimer
-This analysis is for educational and research purposes only. It does not constitute financial advice. Stock markets are inherently unpredictable; past performance is not indicative of future results.
+'''
 
-👤 Author
-Task 4 — Stock Trend Analysis
-Time-Series Analysis Project
+
+
 
