@@ -23,13 +23,13 @@ A time-series analysis of Apple Inc. (AAPL) stock prices (May 2015 – May 2020)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 `pandas` · `numpy` · `matplotlib` · `prophet` · `statsmodels`
 
 ---
 
-## 📊 Workflow
+##  Workflow
 
 | Step | Description |
 |------|-------------|
@@ -45,7 +45,7 @@ A time-series analysis of Apple Inc. (AAPL) stock prices (May 2015 – May 2020)
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 - **Overall upward trend:** ~$130 (2015) → ~$318 (2020)
 - **Min/Max close:** $90.34 (2016-05-12) / $327.20 (2020-02-12)
@@ -56,7 +56,7 @@ A time-series analysis of Apple Inc. (AAPL) stock prices (May 2015 – May 2020)
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Open the notebook in **Google Colab** or **Jupyter**
 2. Install dependencies:
@@ -68,7 +68,7 @@ A time-series analysis of Apple Inc. (AAPL) stock prices (May 2015 – May 2020)
 
 ---
 
-## 📁 Structure
+##  Structure
 
 ```
 ├── Task_4_Stock_Trend_Analysis.ipynb
@@ -76,14 +76,4 @@ A time-series analysis of Apple Inc. (AAPL) stock prices (May 2015 – May 2020)
 └── README.md
 ```
 
----
 
-## ⚠️ Disclaimer
-
-For educational purposes only. Not financial advice.
-
----
-
-## 👤 Author
-
-**Task 4 — Stock Trend Analysis** | Time-Series Project
