@@ -37,4 +37,4 @@ The repository contains:
 
 **Iqra Batool**
 
-Data Science Intern – EncoderX
+Data Science Intern – TechNova
