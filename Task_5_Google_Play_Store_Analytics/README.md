@@ -76,12 +76,6 @@ Task_5_Google_Play_Store_Analytics/
 
 **Source:** [Google Play Store Apps Dataset – Kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps)
 
-## Project Deliverables
-
-- Jupyter Notebook containing the complete analysis.
-- Seven data visualizations.
-- Automated PDF analytics report.
-- Project documentation.
 
 ## Conclusion
 
